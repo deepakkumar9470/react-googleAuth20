@@ -1,0 +1,124 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+  width: 60%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 10px 33px -21px rgba(0,0,0,0.67);
+}
+
+.left, .right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.center{
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+.line{
+ width: 0.5px;
+ height: 70%;
+ background-color: lightgray;
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ margin: auto;
+ z-index: -1;
+}
+.or{
+  border: 2px solid lightgray;
+  border-radius: 50%;
+  padding: 10px;
+  color: gray;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.loginBtn{
+width: 150px;
+padding: 15px 25px;
+border-radius: 5px;
+color: #fff;
+display: flex;
+align-items: center;
+font-weight: bold;
+cursor: pointer;
+margin-bottom: 20px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.google{
+ background-color: #df4930;
+}
+.github{
+    background-color: #333; 
+}
+
+.right img{
+  width: 75%;
+  height: 352px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #df4930;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.loginTitle{
+  font-size: 35px !important;
+  position: absolute;
+  top: 140px;
+  color: lightgray;
+}
+
+
+@media screen and (max-width :  768px) {
+  .login{
+    width: 100%;
+    padding: 30px;
+  }
+  .wrapper{
+      width: 100%;
+     
+  }
+  .right img{
+    display: none;
+  }
+  .loginTitle{
+    font-size: 30px !important;
+    top: 170px;
+  
+  }
+  .or,.line{
+    display: none;
+  }
+  .loginBtn{
+    font-size: 25px;
+    margin-left: 80%;
+    width: 300px;
+  }
+  .icon{
+    width: 30px;
+    height: 30px;
+  }
+
+}

@@ -1,0 +1,29 @@
+{
+  "myposts": [
+    {
+      "id": 1,
+      "title": " Deepak Kumar",
+      "desc": "Hey Abhi How are you boy!"
+    },
+    {
+      "id": 2,
+      "title": "My name is Abhinav",
+      "desc": "Hey Deepak How are you boy!"
+    },
+    {
+      "id": 3,
+      "title": " Suraj",
+      "desc": "Deepak is my bhaiya!"
+    },
+    {
+      "id": 5,
+      "title": "My name is Dhiraj",
+      "desc": "Deepak is my best friend!"
+    },
+    {
+      "title": "Manti Devi God",
+      "desc": "Manti Devi is my mother",
+      "id": 6
+    }
+  ]
+}

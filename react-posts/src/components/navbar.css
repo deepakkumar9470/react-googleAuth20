@@ -1,0 +1,34 @@
+.navbar{
+   height: 60px;
+   background-color: #2C3639;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.logo{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.avataar{
+     width: 32px;
+     height: 32px;
+     border-radius: 50%;
+     object-fit: cover;
+}
+
+.lists{
+   display: flex;
+   align-items: center;
+   list-style: none;
+}
+
+.listItem{
+  list-style: none;
+  margin-right: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
