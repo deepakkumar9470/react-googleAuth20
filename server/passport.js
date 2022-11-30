@@ -1,7 +1,5 @@
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 
-// const GOOGLE_CLIENT_ID =""
-// const GOOGLE_CLIENT_SECRET = ""
 
 
 passport.use(new GoogleStrategy({
@@ -16,3 +14,11 @@ passport.use(new GoogleStrategy({
     });
   }
 ));
+
+passport.serializeUser((user,done) =>{
+  done(null,user)
+});
+
+passport.deserializeUser((user,done) =>{
+  done(null,user)
+})
